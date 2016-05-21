@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxd-k6-yfI" customClass="CycleTimer">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.90455386510000002" green="0.9213867188" blue="0.70772512340000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="lc4-Qg-Kkt"/>
+                                    <constraint firstAttribute="height" constant="200" id="rUy-GJ-bFR"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzf-j6-Ybq">
+                                <rect key="frame" x="88" y="474" width="45" height="30"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.85882352939999995" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="WFF-JW-NFC"/>
+                                    <constraint firstAttribute="height" constant="30" id="n5P-Wa-S2Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="暂停"/>
+                                <connections>
+                                    <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9EQ-uo-KTg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gE0-qH-JU1">
+                                <rect key="frame" x="165" y="474" width="45" height="30"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.85882352939999995" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5oT-pC-HZh"/>
+                                    <constraint firstAttribute="width" constant="45" id="N8h-zu-A4E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="继续"/>
+                                <connections>
+                                    <action selector="continueCycle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k4r-62-ica"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ly9-6I-q5R">
+                                <rect key="frame" x="242" y="474" width="45" height="30"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.85882352939999995" blue="0.74509803919999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2tY-Ib-UX6"/>
+                                    <constraint firstAttribute="width" constant="45" id="Rmh-qh-djy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="重计"/>
+                                <connections>
+                                    <action selector="recycle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H6O-JD-4BT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gE0-qH-JU1" firstAttribute="leading" secondItem="qzf-j6-Ybq" secondAttribute="trailing" constant="32" id="0Ym-J3-ajp"/>
+                            <constraint firstItem="ly9-6I-q5R" firstAttribute="centerY" secondItem="gE0-qH-JU1" secondAttribute="centerY" id="9HT-SL-Zoc"/>
+                            <constraint firstItem="qzf-j6-Ybq" firstAttribute="centerY" secondItem="gE0-qH-JU1" secondAttribute="centerY" id="OGD-eQ-P44"/>
+                            <constraint firstItem="wxd-k6-yfI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TZG-Fy-9tH"/>
+                            <constraint firstItem="gE0-qH-JU1" firstAttribute="top" secondItem="wxd-k6-yfI" secondAttribute="bottom" constant="40.5" id="aQA-eR-MFI"/>
+                            <constraint firstItem="gE0-qH-JU1" firstAttribute="centerX" secondItem="wxd-k6-yfI" secondAttribute="centerX" id="boh-wF-Fzc"/>
+                            <constraint firstItem="wxd-k6-yfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hWt-dT-9RH"/>
+                            <constraint firstItem="ly9-6I-q5R" firstAttribute="leading" secondItem="gE0-qH-JU1" secondAttribute="trailing" constant="32" id="xJs-XZ-KrL"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="continueBtn" destination="gE0-qH-JU1" id="FCp-j0-JHt"/>
+                        <outlet property="cycleTimer" destination="wxd-k6-yfI" id="QQ6-EM-1pT"/>
+                        <outlet property="pauseBtn" destination="qzf-j6-Ybq" id="iQu-JV-CjP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

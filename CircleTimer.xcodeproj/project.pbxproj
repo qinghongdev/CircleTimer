@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85CE051C1CEC675900E0C38E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE051B1CEC675900E0C38E /* main.m */; };
+		85CE051F1CEC675900E0C38E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE051E1CEC675900E0C38E /* AppDelegate.m */; };
+		85CE05221CEC675900E0C38E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE05211CEC675900E0C38E /* ViewController.m */; };
+		85CE05251CEC675900E0C38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CE05231CEC675900E0C38E /* Main.storyboard */; };
+		85CE05271CEC675900E0C38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85CE05261CEC675900E0C38E /* Assets.xcassets */; };
+		85CE052A1CEC675900E0C38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CE05281CEC675900E0C38E /* LaunchScreen.storyboard */; };
+		85CE05361CEC687E00E0C38E /* CycleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE05351CEC687E00E0C38E /* CycleTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85CE05171CEC675900E0C38E /* CircleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CE051B1CEC675900E0C38E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85CE051D1CEC675900E0C38E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85CE051E1CEC675900E0C38E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85CE05201CEC675900E0C38E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85CE05211CEC675900E0C38E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85CE05241CEC675900E0C38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85CE05261CEC675900E0C38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85CE05291CEC675900E0C38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85CE052B1CEC675900E0C38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CE05341CEC687E00E0C38E /* CycleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleTimer.h; sourceTree = "<group>"; };
+		85CE05351CEC687E00E0C38E /* CycleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85CE05141CEC675900E0C38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85CE050E1CEC675900E0C38E = {
+			isa = PBXGroup;
+			children = (
+				85CE05191CEC675900E0C38E /* CircleTimer */,
+				85CE05181CEC675900E0C38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85CE05181CEC675900E0C38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85CE05171CEC675900E0C38E /* CircleTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85CE05191CEC675900E0C38E /* CircleTimer */ = {
+			isa = PBXGroup;
+			children = (
+				85CE051D1CEC675900E0C38E /* AppDelegate.h */,
+				85CE051E1CEC675900E0C38E /* AppDelegate.m */,
+				85CE05201CEC675900E0C38E /* ViewController.h */,
+				85CE05211CEC675900E0C38E /* ViewController.m */,
+				85CE05341CEC687E00E0C38E /* CycleTimer.h */,
+				85CE05351CEC687E00E0C38E /* CycleTimer.m */,
+				85CE05231CEC675900E0C38E /* Main.storyboard */,
+				85CE05261CEC675900E0C38E /* Assets.xcassets */,
+				85CE05281CEC675900E0C38E /* LaunchScreen.storyboard */,
+				85CE052B1CEC675900E0C38E /* Info.plist */,
+				85CE051A1CEC675900E0C38E /* Supporting Files */,
+			);
+			path = CircleTimer;
+			sourceTree = "<group>";
+		};
+		85CE051A1CEC675900E0C38E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85CE051B1CEC675900E0C38E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85CE05161CEC675900E0C38E /* CircleTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85CE052E1CEC675900E0C38E /* Build configuration list for PBXNativeTarget "CircleTimer" */;
+			buildPhases = (
+				85CE05131CEC675900E0C38E /* Sources */,
+				85CE05141CEC675900E0C38E /* Frameworks */,
+				85CE05151CEC675900E0C38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleTimer;
+			productName = CircleTimer;
+			productReference = 85CE05171CEC675900E0C38E /* CircleTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85CE050F1CEC675900E0C38E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = QingHong;
+				TargetAttributes = {
+					85CE05161CEC675900E0C38E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 85CE05121CEC675900E0C38E /* Build configuration list for PBXProject "CircleTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85CE050E1CEC675900E0C38E;
+			productRefGroup = 85CE05181CEC675900E0C38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85CE05161CEC675900E0C38E /* CircleTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85CE05151CEC675900E0C38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CE052A1CEC675900E0C38E /* LaunchScreen.storyboard in Resources */,
+				85CE05271CEC675900E0C38E /* Assets.xcassets in Resources */,
+				85CE05251CEC675900E0C38E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85CE05131CEC675900E0C38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CE05221CEC675900E0C38E /* ViewController.m in Sources */,
+				85CE051F1CEC675900E0C38E /* AppDelegate.m in Sources */,
+				85CE05361CEC687E00E0C38E /* CycleTimer.m in Sources */,
+				85CE051C1CEC675900E0C38E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85CE05231CEC675900E0C38E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CE05241CEC675900E0C38E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85CE05281CEC675900E0C38E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85CE05291CEC675900E0C38E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85CE052C1CEC675900E0C38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85CE052D1CEC675900E0C38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85CE052F1CEC675900E0C38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qinghongdev.CircleTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85CE05301CEC675900E0C38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CircleTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qinghongdev.CircleTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85CE05121CEC675900E0C38E /* Build configuration list for PBXProject "CircleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CE052C1CEC675900E0C38E /* Debug */,
+				85CE052D1CEC675900E0C38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85CE052E1CEC675900E0C38E /* Build configuration list for PBXNativeTarget "CircleTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85CE052F1CEC675900E0C38E /* Debug */,
+				85CE05301CEC675900E0C38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85CE050F1CEC675900E0C38E /* Project object */;
+}
